@@ -1,0 +1,135 @@
+/* DISPLAY */
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: 33% 66%;
+}
+
+.grid-cols-2b {
+  grid-template-columns: 66% 33%;
+}
+
+.grid-cols-50 {
+  grid-template-columns: 50% 50%;
+}
+
+.grid-cols-3 {
+  grid-template-columns: 33% 33% 33%;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+/* WIDTH */
+.w-full {
+  width: 100%;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.p-8 {
+  padding: 1.5rem;
+  /* padding: 1.5rem 1.5rem 1.5rem 1.5rem */
+}
+
+.px-8 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-8 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.pl-8 {
+  padding-left: 1.5rem;
+}
+
+.pt-8 {
+  padding-top: 1.5rem;
+}
+
+.pt-12 {
+  padding-top: 2rem;
+}
+
+.mt-10 {
+  margin-top: 5rem;
+}
+
+.bg-purple-500 {
+  background-color: purple;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+/* CLASSE EN HTML */
+.name-class {
+  /* Props: */ /* Value */
+}
+
+/* ID EN HTML */
+/* #header {
+  background-color: brown;
+} */
+
+.text-center {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bg-brown-500 {
+  background-color: brown;
+}
+
+.bg-silver-500 {
+  background-color: gray;
+}
+
+.bg-gold-500 {
+  background-color: gold;
+}
+
+#bronze:hover {
+  color: white;
+  background-color: brown;
+}
