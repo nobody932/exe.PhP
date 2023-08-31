@@ -1,0 +1,38 @@
+/*.box {
+    width: 100px;
+    height: 100px;  
+color: blue;
+background: rebeccapurple;
+}*/
+.container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+   
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;  
+color: blue;
+background: rgb(255, 94, 0);
+}
+.box2 {
+    width: 100px;
+    height: 100px;  
+color: blue;
+background: rgb(0, 0, 0);
+}
+.box3 {
+    width: 100px;
+    height: 100px;  
+color: blue;
+background: rebeccapurple;
+}
+
+#box1, #box2, #box3 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start center;
+    align-items: center;  
+}
