@@ -55,36 +55,11 @@ Good luck & happy coding !
     
     echo $age;
     echo $vrai;
-    $a = 1;
-    $b = 2;
-    function somme() {
-        global $a, $b;
-        $b = $a + $b;
-    }
-    somme();
-    echo $b;
-    ?>
+     ?>
   
     <!-- Step 0.3 -->
     <!-- Déclarer des variables avec tous les types primitif en PHP.
     -->
-
-    <?php
-$a_bool = TRUE;  
-$a_str  = "foo"; 
-$a_str2 = 'foo';
-$an_int = 12;  
-echo gettype($a_bool);
-echo gettype($a_str);  
-
-if (is_int($an_int)) {
-    $an_int += 4;
-}
-
-if (is_string($a_bool)) {
-    echo "String: $a_bool";
-}
-?>
     <!-- Step 0.4 -->
     <!-- Quelles types primitifs n'ont pas pu être déclarés ?
     -->
