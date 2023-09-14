@@ -28,40 +28,39 @@ Good luck & happy coding !
 use function PHPUnit\Framework\stringContains;
 
 $MyProduct=['phone','pc','télévision'];
-$n=(56);
-$m= $MyProduct;
-$string = "PascalCase";
-function NewProduct(int $n,string $m )
-{
-    return ( '{$n}Ajouter un nouveau produit dans {$m}' );
-}
-print_r($m);
-echo $string;
+print_r($MyProduct);
+echo '<br/>';
+$array_map=array_map(NULL,$MyProduct);
+echo '<br/>';
 
-//function camel_to_snake($str)
-//{
-  //  return strtolower(preg_replace('/(?<!^)[A-Z]/', '_$0', $str));
-//}
-//function snakeToCamel($str)
-//{
-  //  return lcfirst(str_replace(' ', '', ucwords(str_replace('_', ' ', $str))));
-//}
-//$camel = 'CreateUserProfile';
-//$snake = camel_to_snake($camel);
-//echo 'to_snake: ' . $snake . "\n";
-//$camel = snakeToCamel($snake);
-//*echo 'toCamel: ' . $camel . "\n";
 
 $stack = ['console', 'micro'];
 array_push($stack, 'écran', 'pc gamer');
 print_r($stack);
-$delete = array_pop($stack);
-print_r($stack);
+echo '<br/>';
 
+$delete = array_pop($MyProduct);
+print_r($stack);
+echo '<br/>';
 $replacements = array(0 => "casque", 4 => "tablette");
 $replacements2 = array(0 => "chargeur");
+print_r($replacements);
+echo '<br/>';
+print_r($replacements2);
+echo '<br/>';
 $switch = array_replace($stack, $replacements, $replacements2);
 print_r($switch);
+echo '<br/>';
+$new_merge= array_merge($MyProduct, $stack);
+print_r($new_merge);
+echo '<br/>';
+$new_rand= array_rand($new_merge, 2);
+echo $new_merge[$new_rand[0]];
+echo $new_merge[$new_rand[1]];
+
+$arr=[1,2,3,4,5];
+echo $arr;
+$replace=['console'=>'micro'];
 ?>
     <!-- Step 1.2 -->
     <!-- Dans la variable créée plus tôt, insérer 3 valeurs ou plus. Utiliser la méthode ARRAY_MAP avec la valeur NULL en premier argument.
@@ -104,7 +103,7 @@ print_r($switch);
     Passons à la suite en vous rendant sur ce lien :
 
     https://github.com/Lazy974/s2
-
+**
     Made with ❤️ by HelloDev
     -->
 
