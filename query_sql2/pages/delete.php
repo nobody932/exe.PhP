@@ -11,26 +11,10 @@
     <header>
         <nav>
             <ul>
-                <li>
-                    <a href="../index.php">Accueil</a>
-                </li>
-                <li>
-                    <a href="./show.php">Afficher</a>
-                </li>
-                <li>
-                    <a href="./create.php">Créer</a>
-                </li>
-                <li>
-                    <a href="./edit.php">Editer</a>
-                </li>
-                <li>
-                    <a href="./delete.php">Supprimer</a>
-                </li>
-            </ul>
-        </nav>
+               
     </header>
 
-    <form action="../assets/php/controllers/delete_users.php" method="POST">
+    <form action="../assets/php/controllers/store_sql/delete_store.php" method="POST">
         <div>
             <label for="id-delete">Id</label>
             <input type="text" id="id-delete" name="id-delete">

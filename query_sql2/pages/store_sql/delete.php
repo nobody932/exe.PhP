@@ -12,7 +12,7 @@
         <nav>
             <ul>
                 <li>
-                    <a href="../index.php">Accueil</a>
+                <a href="../store_sql/index.php">Accueil</a>
                 </li>
                 <li>
                     <a href="../store_sql/read.php">Afficher</a>

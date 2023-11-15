@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editer une part</title>
-    <link rel="stylesheet" href="../assets/css/styles.css">
-    <script src="../assets/js/main.js"></script>
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <script src="../../assets/js/main.js"></script>
 </head>
 </head>
 <body>
@@ -13,7 +13,7 @@
     <nav>
             <ul>
                 <li>
-                    <a href="../index.php">Accueil</a>
+                <a href="../store_sql/index.php">Accueil</a>
                 </li>
                 <li>
                     <a href="../store_sql/read.php">Afficher</a>
@@ -31,7 +31,7 @@
         </nav>
     </header>
 
-    <h1>Editer un utilisateur</h1>
+    <h1>Editer une part</h1>
 
     <form action="../../assets/php/controllers/store_sql/update_store.php" method="POST">
         <div>

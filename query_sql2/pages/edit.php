@@ -9,25 +9,7 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.php">Accueil</a>
-                </li>
-                <li>
-                    <a href="./show.php">Afficher</a>
-                </li>
-                <li>
-                    <a href="./create.php">Créer</a>
-                </li>
-                <li>
-                    <a href="./edit.php">Editer</a>
-                </li>
-                <li>
-                    <a href="./delete.php">Supprimer</a>
-                </li>
-            </ul>
-        </nav>
+       
     </header>
 
     <h1>Editer une part  </h1>

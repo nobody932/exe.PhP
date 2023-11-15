@@ -10,28 +10,12 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li>
-                    <a href="../index.php">Accueil</a>
-                </li>
-                <li>
-                    <a href="./show.php">Afficher</a>
-                </li>
-                <li>
-                    <a href="./create.php">Créer</a>
-                </li>
-                <li>
-                    <a href="./edit.php">Editer</a>
-                </li>
-                <li>
-                    <a href="./delete.php">Supprimer</a>
-                </li>
-            </ul>
+           
         </nav>
     </header>
-    <form action="../assets/php/controllers/create_users.php" method="POST">
+    <form action="../assets/php/controllers/store_sql/create_store.php" method="POST">
         <div>
-            <label for="email">Email</label>
+            <label for="email"></label>
             <input type="text" id="email" name="email">
         </div>
         <div>

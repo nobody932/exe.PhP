@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Créer une part</title>
-    <link rel="stylesheet" href="../assets/css/styles.css">
-    <script src="../assets/js/main.js"></script>
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <script src="../../assets/js/main.js"></script>
 </head>
 <body>
     <header>
     <nav>
             <ul>
                 <li>
-                    <a href="../index.php">Accueil</a>
+                    <a href="../store_sql/index.php">Accueil</a>
                 </li>
                 <li>
-                    <a href="../store_sql/read.php">Afficher</a>
+                    <a href="./read.php">Afficher</a>
                 </li>
                 <li>
                     <a href="../store_sql/create.php">Créer</a>

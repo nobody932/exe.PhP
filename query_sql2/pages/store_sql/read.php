@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Afficher les utilisateurs</title>
-    <link rel="stylesheet" href="../assets/css/styles.css">
-    <script src="../assets/js/main.js"></script>
+    <title>Liste des Parts</title>
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <script src="../../assets/js/main.js"></script>
 </head>
 <body>
 <header>
 <nav>
             <ul>
                 <li>
-                    <a href="../index.php">Accueil</a>
+                <a href="../store_sql/index.php">Accueil</a>
                 </li>
                 <li>
                     <a href="../store_sql/read.php">Afficher</a>
@@ -30,18 +30,8 @@
         </nav>
     </header>
     
-    <h1>Liste des utilisateurs</h1>
+    <h1>Liste des Parts</h1>
 
-    <?php 
-
-    require_once('../assets/php/middleware/connect.php');
-
-    $query_users = $db_connect->query('SELECT * FROM user');
-
-    foreach ($query_users as $users) {
-        echo $users['email'];
-    }
-
-    ?>
+ 
 </body>
 </html>
