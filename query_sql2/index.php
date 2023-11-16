@@ -10,36 +10,15 @@
 <body>
     <header>
         <nav>
-          
             <ul>
                 <li>
-                <a href="./pages/index.php">Accueil</a>
+                    <a href="#">Accueil</a>
                 </li>
                 <li>
-                    <a href="./pages/store_sql/read.php">Afficher</a>
+                    <a href="./pages/movies/index.php">Movie</a>
                 </li>
                 <li>
-                    <a href="./pages/store_sql/create.php">Créer</a>
-                </li>
-                <li>
-                    <a href="./pages/store_sql/update.php">Editer</a>
-                </li>
-                <li>
-                    <a href="./pages/store_sql/delete.php">Supprimer</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="../../pages/movies_sql/read.php">Afficher</a>
-                </li>
-                <li>
-                    <a href="../../pages/movies_sql/create.php">Créer</a>
-                </li>
-                <li>
-                    <a href="../../pages/movies_sql/update.php">Editer</a>
-                </li>
-                <li>
-                    <a href="../../pages/movies_sql/delete.php">Supprimer</a>
+                    <a href="./pages/store/index.php">Store</a>
                 </li>
             </ul>
         </nav>
