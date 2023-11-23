@@ -5,6 +5,7 @@ require_once('../../middleware/connect.php');
 $id = $_POST['movie-id'];
 $titles = $_POST['movie-title'];
 $url = $_POST['movie-url'];
+$user_aliass=$_POST['user_alias'];
 $description = $_POST['movie-description'];
 $country = $_POST['movie-country'];
 
