@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
     <title classname="uppercase">Store</title>
 </head>
-<body>
+<body class="colorbg, ">
     <header>
         <nav>
             <ul>
@@ -21,31 +22,40 @@
             </ul>
         </nav>
     </header>
-    <h1>Store</h1>
+    <h1 class="text-center">Store</h1>
 
-    <!-- create -->
-    <h1>Create</h1>
-    <form action="../../assets/php/controllers/store/create_store.php" method="POST">
-        <div>
-            <label for="store-picture">Photo</label>
-            <input type="text" id="store-picture" name="store-picture">
-        </div> 
-        <div>
-            <label for="store-name">Nom</label>
-            <input type="text" id="store-name" name="store-name">
-        </div> 
-        <div>
-            <label for="store-adress">Adresse</label>
-            <input type="text" id="store-adress" name="store-adress">
+    <section class="contain self-center">
+
+        <!-- create -->
+        <div class="glassblack">
+             <h1 class="self-center">Create</h1>
         </div>
-        <div>
-            <label for="store-description">Description</label>
-            <input type="text" id="store-description" name="store-description">
-        </div>
+        <form class="flex-container self-center" action="../../assets/php/controllers/store/create_store.php" method="POST">
+            <div class="container-center self-center marggin">
+                <div class="marggin">
+                    <label for="store-picture">Photo</label>
+                    <input type="text" id="store-picture" name="store-picture">
+                </div> 
+                <div class="marggin">
+                    <label for="store-name">Nom</label>
+                    <input type="text" id="store-name" name="store-name">
+                </div> 
+                <div class="marggin">
+                    <label for="store-adress">Adresse</label>
+                    <input type="text" id="store-adress" name="store-adress">
+                </div>
+                <div class="marggin">
+                    <label for="store-description">Description</label>
+                    <input type="text" id="store-description" name="store-description">
+                </div>
+                <div class="self-center">
+                    <button class="testbutton self-center" type="submit">Envoyer</button>
+                </div>
+               
+            </div>
+         </form>
+    </section>
     
-        <button type="submit">Envoyer</button>
-    </form>
-        
     <!-- read -->
         <h1>Read</h1>
 

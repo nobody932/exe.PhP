@@ -8,3 +8,107 @@ body {
   height: 100vh;
   width: 100%;
 }
+.flex-container {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: center;
+  align-content: center;
+}
+
+.glassblack {background: rgba( 0, 0, 0, 0.55 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );}
+  
+.container-center {
+  height: 200px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.self-center {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: center;
+  align-content: center;
+}
+
+.marggin{
+  margin: 5% 0;
+}
+.padding{
+  padding-block: 5% 10%;
+writing-mode: horizontal-tb;
+}
+
+
+.colorbg {
+  background: rgb(153, 102, 153);
+  color: rgb(255, 255, 204);
+
+}
+
+.testbutton {
+  font-family: arial;
+  color: #14396A !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #3866A3;
+  background: #63B8EE;
+  background: linear-gradient(to top, #63B8EE, #468CCF);
+}
+
+.neon {
+  background: linear-gradient(to bottom right, yellow, green);
+  box-shadow:
+    8px 8px 10px 0px deeppink,
+    -5px -5px 5px 0px blue,
+    5px 5px 15px 0px yellow;
+  padding: 0em 1em;
+  border-radius: 16px;
+  border-style: solid;
+  margin-left: 10px;
+  font: 24px sans-serif;
+  line-height: 2;
+}
+
+.cadre{
+  box-sizing: content-box;
+width: 100%;
+}
+
+.block{
+  block-size: auto;
+writing-mode: horizontal-tb;
+}
+
+.grid {
+  display: grid;
+  height: 100px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px;
+}
+
+.contain{
+  background: rgba( 126, 211, 33, 0.55 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+width: 75%;
+}
